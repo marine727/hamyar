@@ -1,0 +1,56 @@
+
+@import '../fonts/iransans.css';
+   body
+   {
+       font-family: 'IRANSans';
+       margin: 0px auto;
+       /*background: #392d40;*/
+       direction: rtl;
+   }
+   .container{
+       max-width:750px;
+        margin-right: auto;
+       margin-left: auto;
+       padding-right: 15px;
+       padding-left: 15px;
+       text-align: center;
+       color: #FFF;
+       padding-bottom: 60px !important;
+   
+       position: absolute;
+         left: 50%;
+         top: 50%;
+         transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%); 
+         -webkit-transform: translate(-50%, -50%);
+   
+   }
+   
+   
+   /* Styles for wrapping the search box */
+   .main {
+       width: 100%;
+       margin:  auto;
+   }
+   
+   .row{
+       direction:rtl;
+   }
+   .img img {
+       width :100%;
+   }
+   .comment{
+       width: 100%;
+       margin: auto;
+   }
+   .link {
+       width: 200px;
+       background:#6747CE;
+       margin: auto;
+       border-radius: 25px;
+       padding : 10px;
+   }
+   .link a{
+       color:#FFF;
+        text-decoration :none !important;
+   }
